@@ -1,0 +1,60 @@
+/*selector {attribute: value}*/
+
+html {
+    background: #00806f;
+}
+
+h1{
+    color: greenyellow;
+    background: hsl(265, 100%, 50%); 
+    text-align: center;
+    font-family: "Shadows Into Light";
+    font-size: 3rem;
+
+}
+
+img{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* CLASS selectors passed as attributes.*/
+.read_heading_class {
+    color: red;
+}
+
+/* ID selector, should only be applied to a single element in an html file */
+#main {
+    color:turquoise;
+}
+
+/*Attribute Selector*/
+/*Doesn't color on action, that would requrie JS*/
+p[draggable="true"] {
+    color: pink;
+}
+
+/*Universal Selector*/
+*{
+    font-family: "Times New roman", cursive;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+ol {
+    margin-left: 40px;
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+li[value="40"] {
+    color: blueviolet;
+    font-weight: lighter;
+}
+
+

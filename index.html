@@ -3,17 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Portfolio</title>
+    <!--internal CSS
+    <style>
+        h2{
+            background: red;
+        }
+    </style>
+    -->
+    <link rel="stylesheet" href="./styles.css">
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Juan Bello's Portfolio</h1>
+    <hr>
+    <br><br>
     <img src="https://picsum.photos/600">
-    <p>Software developer, Martial Artist, and Mathematician</p>
-    <h2>Contents:</h2>
+    <hr>
+    <h2 id="main">Contents</h2>
     <ul>
         <li><h3><a href="./projects/">Projects</a></h3></li>
         <li><h3><a href="./blog/blog.html">Blog</a></h3></li>
-
     </ul>
+    <hr>
+    <h2 class="read_heading_class">Education</h2>
+    <ul>Bachelor of Math, UW</ul>
+    <br>
+    <h2>Summary</h2>
+    <p>Software developer, Martial Artist, and Mathematician</p>
+    <br>
+    <h2>Work experience</h2>
+    <p draggable="true">Drag me, I should be pink</p>
+
+    Top Areas of expertise
+    <ol>
+        <li>Grappling</li>
+        <li>Python</li>
+        <li value="40">Statistics</li>
+        <li>Leadership</li>
+    </ol>
+
 </body>
 </html>
