@@ -6,6 +6,7 @@ html {
 }
 
 
+
 #navbar {
     color: greenyellow;
     background: hsl(265, 100%, 50%); 
@@ -62,4 +63,17 @@ li[value="40"] {
     font-weight: lighter;
 }
 
+
+/*Group selectors*/
+h3,h4,h5 {
+    color: red;
+}
+
+/*Direct child selector*/
+div > p {
+    background-color: rgb(37, 216, 216);
+    padding: 2rem;
+    text-align: center;
+    border: 0.5rem solid black;
+}
 
