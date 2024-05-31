@@ -5,6 +5,30 @@ html {
 
 }
 
+#navbar {
+    position: fixed;
+    z-index: 1; /*make sure it overlaps content*/
+    color: greenyellow;
+    background: hsl(265, 100%, 50%); 
+    text-align: left;
+    font-weight: bolder;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 0.5rem;
+    font-size: 2rem;
+    width: 100%; /*100% of screen*/
+    border: 10px solid black;
+    margin: -10px;
+    margin-bottom: 0px;
+}
+
+.navbar-button{
+    background-color: rgb(165, 255, 127);
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .box {
     border: 1rem solid black;
     height: 10rem;
@@ -32,22 +56,13 @@ html {
     position: relative;
 }
 
-#navbar {
-    position: fixed;
-    z-index: 1; /*make sure it overlaps content*/
-    color: greenyellow;
-    background: hsl(265, 100%, 50%); 
-    text-align: left;
-    font-weight: bolder;
-    font-family: "Nunito Sans", sans-serif;
-    padding: 0.5rem;
-    font-size: 2rem;
-    width: 100%; /*100% of screen*/
-    border: 10px solid black;
-    margin: -10px;
-    margin-bottom: 0px;
-}
 img{
+    text-align: center;
+    float: left;
+    margin: 50px;
+}
+footer {
+    clear: left;
     text-align: center;
 }
 
