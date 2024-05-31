@@ -5,9 +5,36 @@ html {
 
 }
 
+.box {
+    border: 1rem solid black;
+    height: 10rem;
+    width: 10rem;
+    background-color: aquamarine;
+    left: 50px;
+    top: 50px;
+}
 
+.small-box {
+    height: 2rem;
+    width: 2rem;
+    background-color:red;
+
+}
+
+.abs {
+    position: absolute;
+    left: 5rem;
+    border-radius: 40%;
+
+}
+
+.relative {
+    position: relative;
+}
 
 #navbar {
+    position: fixed;
+    z-index: 1; /*make sure it overlaps content*/
     color: greenyellow;
     background: hsl(265, 100%, 50%); 
     text-align: left;

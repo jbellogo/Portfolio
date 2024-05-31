@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="navbar">Tony Stark</h1>
+    <h1 id="navbar">John Cena</h1>
     <hr>
     <h2 class="title">Contents</h2>
     <ul>
@@ -26,8 +26,16 @@
     </ul>
     <hr>
     <h2 class="title">Education</h2>
-    <br>
-    <h2>Summary</h2>
+    <div class="box">
+        <div class="small-box"></div>
+        <div class="small-box abs"></div>
+    </div>
+    <div class="box relative"></div>
+
+
+    <br><br><br>
+
+
     <br>
     <h2>Work experience</h2>
     <p draggable="true">Drag me, I should be pink</p>
@@ -49,6 +57,19 @@
 
         </p>
     </div>
+
+    <div style="width:600px;height:600px;border: 3px solid black;position: relative;"> 
+        <!--relative position doesn't do anything here other than allow us to define absolute position children of the div-->
+        <h2>Summary</h2>
+        <div style="background-color:blue;width:500px;height:300px;position:absolute;top:200px;left: 200px;">
+        <div style="background-color: red;width: 250px;height: 200px;border-radius: 50%;position: absolute;left: 250px;top: 150px;text-align: center;">
+        Random facts
+        </div>
+        </div>
+    </div>
+
+    More stuff
+
 
 </body>
 </html>
