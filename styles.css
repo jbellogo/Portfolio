@@ -1,9 +1,25 @@
 /*selector {attribute: value}*/
-
-html {
-    background: rgb(187, 231, 121);
-
+@media (max-width:1500px) {
+    html{
+        background-color: lightsalmon;
+    }
 }
+
+@media (max-width:1000px){
+    html{
+        background: rgb(187, 231, 121);
+    }
+}
+@media (max-width:500px) {
+    html{
+        background-color: lightblue;
+    }
+}
+/*the order of these media queries matters because of priority*/
+
+
+
+
 
 #navbar {
     position: fixed;
@@ -59,7 +75,8 @@ html {
 img{
     text-align: center;
     float: left;
-    margin: 50px;
+    padding-right: 50px;
+    
 }
 footer {
     clear: left;
