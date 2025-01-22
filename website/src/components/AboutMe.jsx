@@ -2,23 +2,20 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src="./img/bjj.png" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="section--heading">About Me</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+          Outside of software development, I am a passionate martial artist with over 15 years of experience training in various striking andgrappling sports. 
+          Martial arts have taught me invaluable lessons in discipline, competition, and humility, and along the way, I’ve also formed lifelong friendships.
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
-          </p>
+          I also have a deep love for pure mathematics, animals, and reading historical fiction. 
+          My favorite quote, which I hold close to my heart, is from Hannibal Barca, the Carthaginian general. 
+          As his armies, accompanied by their elephants, struggled to cross the Alps on their way to Rome, 
+          he declared: <i>'Aut viam inveniam aut faciam,'</i> meaning, <i>'I will find a way or I will make one.'</i>          </p>
         </div>
       </div>
     </section>
