@@ -8,7 +8,7 @@ export default function AboutMe() {
         <div className="hero--section--content">
           <h1 className="section--heading">About Me</h1>
           <p className="hero--section-description">
-          Outside of software development, I am a passionate martial artist with over 15 years of experience training in various striking andgrappling sports. 
+          Outside of software development, I am a passionate martial artist with over 15 years of experience training in various striking and grappling disciplines. 
           Martial arts have taught me invaluable lessons in discipline, competition, and humility, and along the way, I’ve also formed lifelong friendships.
           </p>
           <p className="hero--section-description">

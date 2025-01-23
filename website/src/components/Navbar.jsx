@@ -36,7 +36,7 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
         {/* <img src="./img/logo.svg" alt="Logoipsum" /> */}
-        <h2> {"\< Juan Bello />"}</h2>
+        <strong className="logo--container">⟨ JUAN BELLO ⟩</strong>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -91,18 +91,16 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
+            <a
+              href="../../public/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="navbar--content"
+              onClick={closeMenu}
             >
               CV
-            </Link>
+            </a>
+
           </li>
         </ul>
       </div>

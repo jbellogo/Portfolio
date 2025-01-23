@@ -33,7 +33,11 @@ h1 {
 /* Pragraphs text large medium small */
 
 .logo--container {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Nunito', sans-serif;
+  color: var(--heading-color);
+  font-size: 1.75rem;
+  white-space: nowrap;
+
 }
 
 /* Body 1 */
@@ -104,6 +108,7 @@ h1 {
 }
 .navbar--items ul > li > a {
   text-decoration: none;
+
 }
 /* Navbar Content */
 .navbar--content {

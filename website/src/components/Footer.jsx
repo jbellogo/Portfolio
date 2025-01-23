@@ -4,12 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer--container">
-      <div className="footer--link--container">
-        <div className="logo--container">
-          Juan Bello
-        </div>
-        
-      </div>
+      <p>Designed by me with React</p>
       <hr className="divider" />
     </footer>
   );
