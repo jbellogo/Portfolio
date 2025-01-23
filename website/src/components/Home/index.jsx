@@ -1,14 +1,14 @@
-import AboutMe from "../AboutMe";
+import About from "../About";
 import Footer from "../Footer";
-import HeroSection from "../HeroSection";
-import MyPortfolio from "../MyPortfolio";
+import Hero from "../Hero";
+import Portfolio from "../Portfolio";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <AboutMe />
-      <MyPortfolio />
+      <Hero />
+      <About />
+      <Portfolio />
       <Footer />
     </>
   );
