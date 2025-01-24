@@ -1,48 +1,22 @@
 {
-    "skills": [
-      {
-        "id": "1",
-        "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      }
-    ],
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/poker_project_thumbnail.png",
+        "src": "/assets/img/poker_project_thumbnail.png",
         "title": "Poker",
         "description": "full-stack poker game built with a Python FastAPI backend, React frontend, and multiplayer functionality using WebSockets. Includes a comprehensive testing suite with pytest and follows typing best practices using Pydantic",
         "link": "https://github.com/jbellogo/poker"
       },
       {
         "id": "2",
-        "src": "./img/movies_project_thumbnail.png",
+        "src": "/assets/img/movies_project_thumbnail.png",
         "title": "Movie Recommender",
         "description": "Django-based movie search app that integrates with a movies API and uses Pandas, NumPy, and Scikit-learn for similarity-based search and custom rankings.",
         "link": "https://github.com/jbellogo/Movies/"
       },
       {
         "id": "3",
-        "src": "./img/classification_project_thumbnail.png",
+        "src": "/assets/img/classification_project_thumbnail.png",
         "title": "Kaggle Poverty Index Classification",
         "description": "End-to-end data project involving data cleanup, feature engineering, and classification using SVM, Random Forest, XGBoost, Neural Networks, logistic regression, and prediction stacking.",
         "link": "https://github.com/jbellogo/Classification"
