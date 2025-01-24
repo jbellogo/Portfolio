@@ -12,6 +12,7 @@ export default function HeroSection() {
           I recently graduated from the University of Waterloo with an Honors Bachelor of Mathematics, Co-op. 
           Through the co-op program, I gained valuable hands-on experience in IoT, full-stack development, and cloud computing.           
            <br /> <br />
+           I am passionate about creating innovative solutions that solve real-world problems.
           Feel free to reach out to chat or collaborate on something amazing!
           </p>
                   {/* ADD SOCIALS HERE */}
