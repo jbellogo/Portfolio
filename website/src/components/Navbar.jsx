@@ -92,7 +92,7 @@ function Navbar() {
           </li>
           <li>
             <a
-              href="/public/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="navbar--content"
