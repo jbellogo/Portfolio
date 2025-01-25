@@ -4,7 +4,7 @@
         "id": "1",
         "src": "/img/poker_project_thumbnail.png",
         "title": "Poker",
-        "description": "Full-stack poker game built with a Python FastAPI backend, React frontend, and multiplayer functionality using WebSockets. Includes a comprehensive testing suite with pytest and follows typing best practices using Pydantic",
+        "description": "Currently working on a full-stack poker game built with a Python FastAPI backend, React frontend, and multiplayer functionality using WebSockets. Includes a comprehensive testing suite with pytest and follows typing best practices using Pydantic",
         "link": "https://github.com/jbellogo/poker"
       },
       {

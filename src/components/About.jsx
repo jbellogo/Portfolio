@@ -13,9 +13,9 @@ export default function AboutMe() {
           </p>
           <p className="hero--section-description">
           I also have a deep love for pure mathematics, animals, and reading historical fiction. 
-          My favorite quote, which I hold close to my heart, is from Hannibal Barca, the Carthaginian general. 
+          My favorite quote, is from Hannibal Barca, the Carthaginian general. 
           As his armies struggled to cross the Alps on their way to Rome, 
-          he declared with striking eloquence and absolute resolve: <i>'Aut viam inveniam aut faciam,'</i> meaning, <i>'I will find a way or I will make one.'</i>          </p>
+          he said: <i>'Aut viam inveniam aut faciam,'</i> meaning, <i>'I will find a way or I will make one.'</i>          </p>
         </div>
       </div>
     </section>

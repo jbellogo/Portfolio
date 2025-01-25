@@ -58,7 +58,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="navbar--content" onClick={closeMenu}>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="navbar--content" onClick={closeMenu}>
               Resume
             </a>
 
