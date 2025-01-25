@@ -1,3 +1,4 @@
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -53,7 +54,7 @@ export default function HeroSection() {
 
       </div>
       <div className="hero--section--img">
-        <img src="/src/assets/img/hero1.png" alt="Hero Section" />
+        <img src="/img/hero1.png" alt="Hero Section" />
       </div>
     </section>
   );
