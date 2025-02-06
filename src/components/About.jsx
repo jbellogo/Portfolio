@@ -8,14 +8,13 @@ export default function AboutMe() {
         <div className="hero--section--content">
           <h1 className="section--heading">About Me</h1>
           <p className="hero--section-description">
-          Outside of software development, I am a passionate martial artist with over 15 years of experience training in various striking and grappling disciplines. 
-          Martial arts have taught me invaluable lessons in discipline, competition, and humility, and along the way, I’ve also formed lifelong friendships.
+          Outside of tech, I’m an aspiring mathematician, a <strong><i>relentless</i></strong> martial arts competitor, and a part-time supporter of individuals with mental disabilities.
           </p>
           <p className="hero--section-description">
-          I also have a deep love for pure mathematics, animals, and reading historical fiction. 
-          My favorite quote, is from Hannibal Barca, the Carthaginian general. 
+          I approach everything I do with a 'roll up my sleeves' attitude.
+          My favorite quote, which I always strive to live by, comes from Hannibal Barca, the Carthaginian general.
           As his armies struggled to cross the Alps on their way to Rome, 
-          he said: <i>'Aut viam inveniam aut faciam,'</i> meaning, <i>'I will find a way or I will make one.'</i>          </p>
+          he said: <i>'Aut viam inveniam aut faciam,'</i> meaning, <strong><i>'I will find a way or I will make one.'</i></strong>          </p>
         </div>
       </div>
     </section>

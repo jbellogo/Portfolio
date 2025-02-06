@@ -10,13 +10,12 @@ export default function HeroSection() {
             <br />
           </h1>
           <p className="hero--section-description">
-          I recently graduated from the University of Waterloo with an Honors Bachelor of Mathematics, Co-op. 
-          Through the co-op program, I gained valuable hands-on experience in IoT, full-stack development, and cloud computing.           
-           <br /> <br />
-           I am passionate about creating innovative solutions that solve real-world problems.
+          Passionate about solving complex problems in math and technology. 
+          I have experience in back-end and cloud-based development, having worked with websites, IoT edge devices, and microservices.
+          <br /> <br />
           Feel free to reach out!
           </p>
-                  {/* ADD SOCIALS HERE */}
+            {/* ADD SOCIALS HERE */}
 
             <div className="social--icons">
             <ul>

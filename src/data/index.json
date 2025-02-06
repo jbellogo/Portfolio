@@ -4,7 +4,7 @@
         "id": "1",
         "src": "/img/poker_project_thumbnail.png",
         "title": "Poker",
-        "description": "Currently working on a full-stack poker game built with a Python FastAPI backend, React frontend, and multiplayer functionality using WebSockets. Includes a comprehensive testing suite with pytest and follows typing best practices using Pydantic",
+        "description": "Currently working on a full-stack poker game built with a Python backend, React frontend, and multiplayer functionality using WebSockets. Includes a comprehensive testing suite written in pytest and follows typing best practices using Pydantic",
         "link": "https://github.com/jbellogo/poker"
       },
       {
@@ -18,7 +18,7 @@
         "id": "3",
         "src": "/img/classification_project_thumbnail.png",
         "title": "Kaggle Poverty Index Classification",
-        "description": "End-to-end data project involving data cleanup, feature engineering, and classification using SVM, Random Forest, XGBoost, Neural Networks, logistic regression, and prediction stacking.",
+        "description": "End-to-end AI predictive model project involving data cleanup, feature engineering, and classification using SVM, Random Forest, XGBoost, Neural Networks, logistic regression, and prediction stacking.",
         "link": "https://github.com/jbellogo/Classification"
       }
     ]
