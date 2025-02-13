@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6,p {
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
+  --tertiary: #1c1e53;
 }
 /* Global CSS Ends */
 /* Main Headings */
@@ -69,7 +70,7 @@ h1 {
 /* Skills & About Me */
 .section--title {
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -99,6 +100,7 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 .navbar--items > ul {
   list-style: none;

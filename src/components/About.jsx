@@ -8,13 +8,21 @@ export default function AboutMe() {
         <div className="hero--section--content">
           <h1 className="section--heading">About Me</h1>
           <p className="hero--section-description">
-          Outside of tech, I’m an aspiring mathematician, a <strong><i>relentless</i></strong> martial arts competitor, and a part-time supporter of individuals with mental disabilities.
+          Outside of tech, I’m an aspiring mathematician, a relentless martial arts competitor, and a part-time supporter of individuals with mental disabilities.
           </p>
           <p className="hero--section-description">
           I approach everything I do with a 'roll up my sleeves' attitude.
-          My favorite quote, which I always strive to live by, comes from Hannibal Barca, the Carthaginian general.
-          As his armies struggled to cross the Alps on their way to Rome, 
-          he said: <i>'Aut viam inveniam aut faciam,'</i> meaning, <strong><i>'I will find a way or I will make one.'</i></strong>          </p>
+          My favorite quote, spoken by Carthaginian general Hannibal Barca as his armies struggled to cross the Alps on their way to Rome, captures this:
+          <br /> <br />
+          —<strong><i>"I will find a way or make one."</i></strong>
+          </p>
+
+
+
+
+
+
+
         </div>
       </div>
     </section>

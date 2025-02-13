@@ -20,6 +20,13 @@
         "title": "Kaggle Poverty Index Classification",
         "description": "End-to-end AI predictive model project involving data cleanup, feature engineering, and classification using SVM, Random Forest, XGBoost, Neural Networks, logistic regression, and prediction stacking.",
         "link": "https://github.com/jbellogo/Classification"
+      },
+      {
+        "id": "4",
+        "src": "/img/notes_project_thumbnail.png",
+        "title": "Notes",
+        "description": "Computational mathematics notes on topics like probability, game theory, financial markets, and more. Written in Obsidian with a Quartz front end.",
+        "link": "https://github.com/jbellogo/Notes"
       }
     ]
   }

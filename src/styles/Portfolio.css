@@ -1,0 +1,91 @@
+/* Portfolio Section */
+.portfolio--section {
+  display: flex;
+  padding: 2vh 2vw;
+  margin: 3vh 1vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Carousel */
+.carousel-container {
+  padding: 3vh 2vw;
+  margin: 2vh 1vw;
+  width: 90%;
+  background-color: var(--tertiary);
+  border-radius: 5%;
+}
+
+.react-multi-carousel-dot-list {
+  justify-content: center;
+  align-items: center;
+}
+
+.react-multi-carousel-dot button,
+.custom-dot-list-style button {
+  border: 1px solid #000;
+  background: #ddd;
+}
+
+.react-multi-carousel-dot--active button,
+.custom-dot-list-style .react-multi-carousel-dot--active button {
+  background: #000;
+}
+
+/* Project Item */
+.project--item {
+  width: 40vw;
+  background-color: var(--bg-shade);
+  padding: 2vh 2vw;
+  margin: 1vh 1vw;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+  /* cursor: pointer; */
+}
+
+.project--item:hover {
+  transform: translateY(-5px);
+  background-color: var(--secondary);
+}
+
+.project--img {
+  border-radius: 8px;
+  width: 100%;
+  height: 300px; /* Fixed height */
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.project--img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.project--content {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.project--btn {
+  padding: 1vh 1vw;
+  margin: 0;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio--btn:hover {
+  background-color: #1a1a1d;
+}

@@ -53,15 +53,19 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">
+            <Link onClick={closeMenu} activeClass="navbar--active-content" spy={true} smooth={true} offset={-70} duration={500} to="Portfolio" className="navbar--content">
               Portfolio
             </Link>
+          </li>
+          <li>
+            <a href="https://jbellogo.github.io/Notes/" target="_blank" rel="noopener noreferrer" className="navbar--content" onClick={closeMenu}>
+              Notes
+            </a>
           </li>
           <li>
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="navbar--content" onClick={closeMenu}>
               Resume
             </a>
-
           </li>
         </ul>
       </div>
