@@ -10,7 +10,8 @@ export default function HeroSection() {
             <br />
           </h1>
           <p className="hero--section-description">
-          Passionate about solving complex problems in math and technology. 
+          I’m a Mathematics graduate from the University of Waterloo, passionate about tackling challenging problems at the intersection of software and mathematics.
+          <br /> <br />
           I have experience in back-end and cloud-based development, having worked with websites, IoT edge devices, and microservices.
           <br /> <br />
           Feel free to reach out!

@@ -100,7 +100,7 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 10000;
 }
 .navbar--items > ul {
   list-style: none;
@@ -388,18 +388,15 @@ h1 {
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
-    z-index: 200;
   }
   .navbar--items {
     display: flex;
+    z-index: 500;
     background-color: rgba(0, 0, 0, 0.80);
-  }
-  .navbar--items {
     position: absolute;
-    display: flex;
     align-items: center;
     justify-content: center;
-    top: -20rem;
+    top: -200vh;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
@@ -412,7 +409,11 @@ h1 {
     z-index: -100;
   }
   .navbar--items ul li {
+    padding-top: 3vh;
+    border-bottom: 3px solid var(--white);
     text-align: center;
+    z-index: -1000;
+
   }
   .navbar--items ul li a {
     padding: 0.5rem;
@@ -421,9 +422,9 @@ h1 {
     z-index: -1000;
   }
   .navbar--items.active {
-    top: 30px;
+    top: 0vh;  /* shadows the entire navbar when hamburger is active*/
   }
-  .nav__hamburger.active :nth-child(1) {
+  /* .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
   }
 
@@ -433,7 +434,9 @@ h1 {
 
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
-  }
+  } */
+
+
 }
 
 
